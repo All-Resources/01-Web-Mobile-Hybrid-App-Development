@@ -8,4 +8,4 @@ I am Following This  book For  HTML5 And CSS3  <br>
 
 * Class -02 : Chapter 3 to 5
 
-* Class -02 : Chapter 3 to 5
+* Class -03 : Chapter 3 to 5
