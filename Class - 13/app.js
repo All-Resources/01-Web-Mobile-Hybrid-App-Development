@@ -5,3 +5,10 @@
       }
       document.write("<br>")
     } 
+    document.write("<br>")
+    document.write("<br>")
+
+    var c= Math.random()*2;
+    document.write(c);
+
+    //Till Chapter No 30
