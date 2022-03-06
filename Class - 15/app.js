@@ -14,15 +14,22 @@
 // }
 
 
-var c = 0;
-do{
-    document.write(c +"<br>");
-    c++;
+// var c = 0;
+// do{
+//     document.write(c +"<br>");
+//     c++;
+// }
+// while(c<10)
+
+
+// function mo(){
+//     alert("Muhammad")
+// }
+//  mo( )
+
+function clickBtn(){
+    alert("click Me")
 }
-while(c<10)
-
-
-
 
 
 
