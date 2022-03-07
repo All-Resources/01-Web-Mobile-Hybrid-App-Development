@@ -25,7 +25,13 @@
 //     b.src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aGQlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
 // }
 
-function changeimage(id,src){
-var image = document.getElementById(id);
-image.src = src
+// function changeimage(id,src){
+// var image = document.getElementById(id);
+// image.src = src
+// }
+
+
+function fsize(){
+    var c = document.getElementById('img')
+    c.style.fontSize ="2em"
 }
