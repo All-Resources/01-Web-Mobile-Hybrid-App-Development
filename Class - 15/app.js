@@ -27,9 +27,28 @@
 // }
 //  mo( )
 
-function clickBtn(){
-    alert("click Me")
+// function clickBtn(){
+//     alert("click Me")
+// }
+
+
+//     function getName(){
+//     var name = document.getElementById("name");
+//     alert(name.value)
+// }
+
+    function setName(){
+        var name = document.getElementById("name");
+        name.value = "Ali"
+
+        var para = document.getElementById("para");
+
+        para.innerHTML = "para is Written by InnerHTML";
+
 }
+
+    setName()
+
 
 
 
