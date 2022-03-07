@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <p id="text">
+    <!-- <p id="text">
       Ali Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Necessitatibus beatae consectetur, voluptate temporibus neque explicabo
       eaque, quas doloremque mollitia obcaecati deleniti. Cumque quam magni
@@ -18,6 +19,18 @@
     <p id="pera">
       Raza Lorem ipsum dolor sit amet consectetur adipisicing elit.Ali Raza
       <a href="javascript:void(0)" onclick="readMore()"> Read More</a>
-    </p>
+    </p> -->
+
+    <!-- <img onclick="big()" id="car" src="card1.jpg" alt="" width="250px" /> -->
+
+    <!-- onmouseover="changeimg()" onmouseout="changeimgbefore()" -->
+    <img
+      src="card1.jpg"
+      id="img"
+      onmouseover="changeimage('img', 'card1.jpg')"
+      onmouseout="changeimage('img', 'card2.PNG')"
+      alt=""
+    />
   </body>
+  <!-- "onmouseout="changeimgbefore()" -->
 </html>
