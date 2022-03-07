@@ -31,7 +31,20 @@
 // }
 
 
-function fsize(){
-    var c = document.getElementById('img')
-    c.style.fontSize ="2em"
-}
+// function fsize(){
+//     var c = document.getElementById('img')
+//     c.style.fontSize ="2em"
+// }
+
+// function fsize(){
+    var per = document.getElementsByTagName(p);
+    per[2].style.color = 'orange'
+
+
+// var per = document.getElementsByTagName('p');
+
+for (var i = 0; i < spanElements.length; i++) {
+    spanElements[i].style.color = 'green';
+
+
+
