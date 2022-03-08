@@ -22,17 +22,28 @@
 
 
 
-let min = 0;
-let sec = 0;
-let msec = 0;
+var min = 0;
+var sec = 0;
+var msec = 0;
 
-let minHeading = document.getElementById('min');
-let secHeading = document.getElementById('sec');
-let msecHeading = document.getElementById('msec');
-let interval;
+var minHeading = document.getElementById("min");
+var secHeading = document.getElementById("sec");
+var msecHeading=document.getElementById("msec");
+
+var interval;
 
         function timer(){
         msec++
-        msecHeading.innerHTML=msec;
-}
-        setInterval(timer, 100)
+        msecHeading.innerHTML = msec;
+        if(msec >= 100){
+            sec++
+            secHeading.innerHTML = sec
+            msec = 0;
+        }else if(sec>=60){
+            min++
+            sec=0
+            minHeading.innerHTML=min
+        }
+    }
+
+        interval = setInterval(timer , 10)
