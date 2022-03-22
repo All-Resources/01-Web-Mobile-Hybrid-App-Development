@@ -1,1 +1,2 @@
-console.log(document.childNodes[0].childNodes[2])
+var a= document.getElementById('pappa')
+console.log(a.childNodes[0])
