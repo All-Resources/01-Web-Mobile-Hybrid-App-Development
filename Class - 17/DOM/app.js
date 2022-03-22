@@ -1,2 +1,2 @@
 var a= document.getElementById('pappa')
-console.log(a.childNodes[1])
+console.log(a.childNodes)
