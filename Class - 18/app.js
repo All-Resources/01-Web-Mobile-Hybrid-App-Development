@@ -7,7 +7,8 @@ function disablebtn(){
 
 
 function getElements(){
-    var p = document.getElementsByTagName('p');
-    console.log(p);
+    // var p = document.getElementsByTagName('p');
+    // console.log(p);
+    console.log(document.childNodes[0])
 
 }
