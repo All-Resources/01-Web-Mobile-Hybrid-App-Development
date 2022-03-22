@@ -4,3 +4,10 @@ function disablebtn(){
 
     btn.disabled = true ;
 }
+
+
+function getElements(){
+    var p = document.getElementsByTagName('p');
+    console.log(p);
+
+}
